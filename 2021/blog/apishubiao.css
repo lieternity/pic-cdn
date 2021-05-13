@@ -4,6 +4,6 @@ body {
 a, button {
     cursor:url(https://cdn.jsdelivr.net/gh/acodegod/pic-cdn@main/2021/blog/link.cur), pointer
 }
-.col-sm-4 {
-    background:0 0
+.block {
+    opacity: 75%;
 }
