@@ -7,6 +7,7 @@
     filter: grayscale(100%);
     filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
 } */
+
 #article-container psw:hover {
   color: #333;
   background: none;
@@ -37,25 +38,15 @@
 } */
 
 /* 鼠标图标 */
-
 body {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
 }
-
-
-/*a标签*/
-
 a:hover {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/*按钮*/
-
 button:hover {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
 #rightside>div>button,
 #rightside>div>a {
     display: block;
@@ -67,24 +58,12 @@ button:hover {
     font-size: 16px;
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/* 打赏 */
-
 .post-reward .reward-button {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/* 文章标签 */
-
 .layout_post .tag_share .post-meta__tags {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/* 评论区 */
-
 .vcol * {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
@@ -92,43 +71,22 @@ button:hover {
 .v[data-class=v] .vicon {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
 .v[data-class=v] .vbtn {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/* 回复 */
-
 .vat {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/*i标签*/
-
 i:hover {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/*up酱*/
-
 #upj:hover {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/*页脚a标签*/
-
 #footer-wrap a:hover {
     text-decoration: none;
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
-
-
-/*分页器*/
-
 #pagination .page-number:hover {
     cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
 }
@@ -154,16 +112,34 @@ i:hover {
 /* 背景透明 */
 
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)
+    /* background: var(--light_bg_color) */
+	opacity: 75%;
 }
 
 #aside-content .card-widget {
-    background: var(--light_bg_color)
+    /* background: var(--light_bg_color) */
+	opacity: 80%;
+}
+#web_bg{
+    background-image: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg");
 }
 
-#web_bg {
+/* #web_bg {
     background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
-}
+} */
+/* #web_bg { */
+    /* background: url(https://cdn.jsdelivr.net/gh/acodegod/pic-cdn@4f910ccbfb0f82b2303c9b0374808661b25b5461/2021/05/31/c645713efd76552d0f76be0128140626.png) no-repeat */
+/* } */
+/* #web_bg {
+  background-image: url("https://ae01.alicdn.com/kf/H5662031fbf344418aa2c8bf74c68826eV.png"),
+    -moz-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
+  background-image: url("https://ae01.alicdn.com/kf/H5662031fbf344418aa2c8bf74c68826eV.png"),
+    -webkit-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
+  background-image: url("https://ae01.alicdn.com/kf/H5662031fbf344418aa2c8bf74c68826eV.png"),
+    -ms-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
+  background-image: url("https://ae01.alicdn.com/kf/H5662031fbf344418aa2c8bf74c68826eV.png"),
+    linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
+} */
 
 /* 版权链接去掉下划线 */
 
@@ -230,3 +206,12 @@ html {
 .tk-footer{
 	color: transparent;
 }
+
+
+
+
+
+
+
+
+
