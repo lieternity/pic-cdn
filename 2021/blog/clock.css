@@ -12,8 +12,8 @@ padding:20px
     height: 153px;
     margin: 15px;
     border-radius: 8px;
-    /*background-color: #ececec;
-    box-shadow: inset 3px 3px 18px 0 rgb(50 50 50 / 40%);*/
+    /* background-color: #ececec;
+    box-shadow: inset 3px 3px 18px 0 rgb(50 50 50 / 40%); */
     z-index: 2;
 }
 .clock-row{
