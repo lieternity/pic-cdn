@@ -121,7 +121,6 @@ $.ajax({
 		    ck.Write("true");  
 		}
 		else{
-		    alert("页面刷新");
 		}
 		var showFPS = (function() {
 			var requestAnimationFrame = window.requestAnimationFrame || window
