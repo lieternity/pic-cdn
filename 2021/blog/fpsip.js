@@ -113,7 +113,6 @@ $.ajax({
 			' 进来的朋友！<br/>使用 ' + data.data.os + "<br/>" + data.data.browser +
 			' 访问本站！' + '<br/>' + msg);
 
-		    //设置保存时间
 		    var dd = new Date();
 		    dd = new Date(dd.getYear() + 1900, dd.getMonth(), dd.getDate());
 		    dd.setDate(dd.getDate() + 365);
