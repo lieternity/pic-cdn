@@ -112,12 +112,6 @@ $.ajax({
 		    layer.msg("Hi~ 来自" + data.data.location + '~<br/>通过 ' + msgTitle +
 			' 进来的朋友！<br/>使用 ' + data.data.os + "<br/>" + data.data.browser +
 			' 访问本站！' + '<br/>' + msg);
-
-		    var dd = new Date();
-		    dd = new Date(dd.getYear() + 1900, dd.getMonth(), dd.getDate());
-		    dd.setDate(dd.getDate() + 365);
-		    ck.setExpiresTime(dd);
-
 		    ck.Write("true");  
 		}
 		else{
