@@ -38,7 +38,7 @@ var msg = '';
 		"已经这么晚了呀，早点休息吧，晚安~");
 $.ajax({
 	type: "get",
-	url: "https://api.gmit.vip/Api/UserInfo/",
+	url: "https://api.roaing.com/clientinfo/",
 	async: true,
 	success: function(data) {
 		window.info = data;
