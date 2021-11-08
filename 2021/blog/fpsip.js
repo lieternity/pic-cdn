@@ -38,7 +38,7 @@ var msg = '';
 		"已经这么晚了呀，早点休息吧，晚安~");
 $.ajax({
 	type: "get",
-	url: "https://service-hwwoivjc-1258640085.hk.apigw.tencentcs.com/release/?ip=true",
+	url: "https://service-hwwoivjc-1258640085.hk.apigw.tencentcs.com/release/ip",
 	async: true,
 	success: function(data) {
 		window.info = data;
