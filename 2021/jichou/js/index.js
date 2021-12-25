@@ -99,7 +99,7 @@ const lovexhj = new Vue({
          * Json 配置获取
          */
         getJsonConfig() {
-            let json = "./config/config.json";
+            let json = "https://cdn.staticaly.com/gh/acodegod/pic-cdn/main/2021/jichou/config/config.json";
             let request = new XMLHttpRequest();
             request.open("get", json);
             request.send(null);
