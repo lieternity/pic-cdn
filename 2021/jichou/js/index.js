@@ -45,7 +45,7 @@ const lovexhj = new Vue({
      */
     data() {
         return {
-            ServerBase: "https://jichou.bugjava.online", // 后端地址
+            ServerBase: "https://service-np8jl8as-1258640085.hk.apigw.tencentcs.com/release/", // 后端地址
             localConfig: null, // 本地配置
             jsonConfig: null, // Json 配置
             wdnmdData: null, // 记仇数据
